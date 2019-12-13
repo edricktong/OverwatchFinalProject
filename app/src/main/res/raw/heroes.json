@@ -1,0 +1,73 @@
+[
+	{
+		"name":"Ana",
+		"description":"Co-Captain of Overwatch who wields a bolt action rifle, capable of healing teammates and damaging enemies",
+		"ultimate":"NANO BOOST: For 10 Seconds, Increase dealt and reduce damaged received by 50%",
+		"category":"Healer",
+		"image":"ana"
+	},
+	{
+		"name":"Ashe",
+		"description":"As the leader of the Deadlock Gang, this western cultured girl wields a Semi Automatic rifle capable of short and long range damage ",
+		"ultimate":"B.O.B: Deploy a robotic sidekick that does massive hitscan damage",
+		"category":"Damage",
+		"image":"ashe"
+	},
+	{
+		"name":"Bastion",
+		"description":"A dual configurable tank like robot that specializes in mobile Run and Gun or immobile minigun assult",
+		"ultimate":"CONFIGURATION: TANK: Transform into a deadly projectile firing tank dealing massive amounts of AOE damage",
+		"category":"Damage",
+		"image":"bastion"
+	},
+	{
+		"name":"Brigitte",
+		"description":"German brunette who wields a Rocket Flail causing AOE damage, and low HP shield for protection and stuns. Heals passively through damage dealing and actively through armor packs",
+		"ultimate":"RALLY: Increase ally speed by 30% whilst providing 15 armor per second up to 100 extra HP",
+		"category":"Healer",
+		"image":"brigitte"
+	},
+	{
+		"name":"D.VA",
+		"description":"The youngest Hero to serve Overwatch. Serves the MEKKA association whilst living a secondary life in the realm of gaming. D.VA pilots a 'Mech' that wields 2 machine guns",
+		"ultimate":"SELF DESTRUCT: Deliberately self destruct your Mech, effectively turning it into a massive AOE nuke  ",
+		"category":"Tank",
+		"image":"dva"
+	},
+	{
+		"name":"Doomfist",
+		"description":"Part of Overwatch enemy group Talon, this super buff african-american wields a rocket propelled fist, capable of instant death",
+		"ultimate":"METEOR STRIKE: Rocket into the air and choose a strike position, dealing massive AOE on impact",
+		"category":"Damage",
+		"image":"doomfist"
+	},
+	{
+		"name":"Genji",
+		"description":"A Cyborg Ninja who wields shurikens, deflection blade, and dragon blade",
+		"ultimate":"DRAGON BLADE: Draw a shimada posessed katana, dealing massive AOE damage per strike",
+		"category":"Damage",
+		"image":"genji"
+	},
+	{
+		"name":"McCree",
+		"description":"Wields a 6 shot revolver",
+		"ultimate":"DEADEYE: Lock on to a max of 6 targets, eliminating them instantly",
+		"category":"Damage",
+		"image":"mccree"
+	},
+	{
+		"name":"Hanzo",
+		"description":"Wields a shimada posessed bow, capable of burst fire and long range attack",
+		"ultimate":"DRAGONSTRIKE: Shoot an arrow which transforms into two dragons, dealing massive AOE damage on enemy contact",
+		"category":"Damage",
+		"image":"hanzo"
+	},
+	{
+		"name":"Junkrat",
+		"description":"Reckless Australian maniac who wields a homemade grenade launcher, landmines, bear trap, and explosive controllable tire ",
+		"ultimate":"RIPTIRE: Deploy a remote controlled explosive spiked tire. Maneuver and remotely detonate at will dealing massive AOE damage",
+		"category":"Damage",
+		"image":"junkrat"
+
+	}
+]

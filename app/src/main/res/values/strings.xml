@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Overwatch Heroes Catalog</string>
+    <string name="sort_by_name">Sort by Hero Name</string>
+    <string name="sort_by_rank">Sort by Category</string>
+</resources>
