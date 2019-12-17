@@ -10,6 +10,7 @@ import com.google.android.material.navigation.NavigationView;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
 
 import android.view.Menu;
 
@@ -76,15 +77,19 @@ public class OverwatchMenuActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
+        Fragment fragment = null;
+        if (id == R.id.nav_Damage) {
+            fragment = new DamageFragment();
+        } else if (id == R.id.nav_Healer) {
+            fragment = new HealerFragment();
+        } else if (id == R.id.nav_Tank) {
+            fragment = new TankFragment();
 
         }
-
+        if (fragment != null)
+        {
+            getSupportFragmentManager().beginTransaction().replace(R.id.FragmentContainer,fragment).commit();
+        }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
