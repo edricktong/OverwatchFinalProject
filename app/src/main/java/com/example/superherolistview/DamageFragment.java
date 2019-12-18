@@ -23,11 +23,26 @@ import java.util.List;
 
 
 class DamageFragment extends androidx.fragment.app.Fragment {
-    private ListView dammageListView;
-    private TextView damageHeroName;
-    private List<Hero> damageHeroList;
+
+        public DamageFragment() {
+            //empty public constructor
+        }
+
+        @Override
+        public View OnCreateView{LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState){
+        View view = inflater.inflate(R.layout.activity_main, container, false);
+
+        String[] damageFragmentItems = {"Ashe",
+                "Bastion",
+                "Doomfist",
+                "Genji",
+                "Hanzo",
+                "Junkrat"};
+
+        return view;
 
 
-
-
+    }
+    }
 }
