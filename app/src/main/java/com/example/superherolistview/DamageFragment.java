@@ -44,6 +44,14 @@ public class DamageFragment extends Fragment {
 
         ListView damageListView = view.findViewById(R.id.listview_damage_heroes);
 
+        ArrayAdapter<String> damageListViewAdapter = new ArrayAdapter<String>(
+                getActivity(),
+                android.R.layout.simple_list_item_1,
+                damageFragmentItems
+
+        );
+
+        damageListView.setAdapter(damageListViewAdapter);
 
 
         return view;

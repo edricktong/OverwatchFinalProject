@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HeroDetailActivity" />
         <activity android:name=".HeroListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
