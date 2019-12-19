@@ -66,7 +66,7 @@ public class HeroListActivity extends AppCompatActivity {
     }
 
     private void wireWidgets() {
-        listView_Hero = findViewById(R.id.listView_HeroListActivity_HeroList);
+        listView_Hero = findViewById(R.id.listview_damage_heroes);
         textView_description = findViewById(R.id.textView_item_description);
         textView_name = findViewById(R.id.textView_item_name);
         textView_rank = findViewById(R.id.textView_item_rank);

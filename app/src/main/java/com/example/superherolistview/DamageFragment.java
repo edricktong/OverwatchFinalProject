@@ -2,6 +2,8 @@ package com.example.superherolistview;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.util.Log;
@@ -22,15 +24,15 @@ import java.util.Arrays;
 import java.util.List;
 
 
-class DamageFragment extends androidx.fragment.app.Fragment {
+public class DamageFragment extends Fragment {
 
         public DamageFragment() {
             //empty public constructor
         }
 
-        @Override
-        public View OnCreateView{LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState){
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_main, container, false);
 
         String[] damageFragmentItems = {"Ashe",
@@ -40,9 +42,11 @@ class DamageFragment extends androidx.fragment.app.Fragment {
                 "Hanzo",
                 "Junkrat"};
 
+        ListView damageListView = view.findViewById(R.id.listview_damage_heroes);
+
+
+
         return view;
-
-
     }
-    }
+
 }
